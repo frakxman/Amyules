@@ -1,0 +1,44 @@
+/* Local Playfair variable fonts */
+@font-face {
+    font-family: 'PlayfairLocal';
+    src: url('Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PlayfairLocal';
+    src: url('Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gold: #D4AF37;
+    --dark: #1a1a1a;
+    --ivory: #FAF9F6;
+    --charcoal: #2d2d2d;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: var(--dark);
+    color: var(--ivory);
+    overflow-x: hidden;
+}
+
+.font-display {
+    font-family: 'PlayfairLocal', 'Playfair Display', serif;
+}
+
+.font-elegant {
+    font-family: 'Cormorant Garamond', serif;
+}
